@@ -4,7 +4,7 @@
     "description": "Basic setup to for the backend engineer test",
     "main": "app.js",
     "scripts": {
-        "start": "ts-node src/app.ts",
+        "start": "ts-node src/server.ts",
         "test": "set DEBUG=* && jest --testPathPattern=test --coverage"
     },
     "author": "Christoph Fey",
