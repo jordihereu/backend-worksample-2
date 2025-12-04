@@ -17,5 +17,25 @@ Feel free to add or change this project as you like.
 
 
 ## Setup
-`npm install`
+
+- `npm install`
+- npm install --save-dev @testcontainers/postgresql
+
+## Testing
+
+### Unit test
+
+Services are tested at unit level in './test/unit' folder
+
+### Integration test
+
+Project use test containers. Running `npm test` will spin up the needed containers an run the tests.
+Folder: './test/integration/'
+
+## DB
+
+Database structure is defined in './src/db/migrations'. New changes should be placed here.
+There is a custom tool `mirgate.ts` in charge of running those scripts on application start (and when running the integration tests)
+
+## ADRs
 
