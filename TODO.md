@@ -2,9 +2,9 @@
 
 - CHALLANGE REQUIREMENTS: allowing GETTING ALL USERS
     - "Adjust GET /users that it returns (all) users from the database." 
-    -> Returning all users from a database is a bad practice
-    -> Suggest adding a limit to the amount of requested users
-    -> Suggest implementinga pagination system
+    - Returning all users from a database is a bad practice
+    - Suggest adding a limit to the amount of requested users
+    - Suggest implementinga pagination system
 
 - VALIDATORS: Extract validations to its own classes
     - Not needed as of now as the validations are really simple
@@ -15,4 +15,4 @@
 - SWAGGER: Evaluate adding swagger to share contract with consumers
 
 - INTEGRATION TEST:
-    - Add a test symulating the db being down (503?)
+    - Add a test simulating the DB being down (503?)

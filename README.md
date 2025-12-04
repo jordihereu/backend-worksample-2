@@ -39,3 +39,8 @@ There is a custom tool `mirgate.ts` in charge of running those scripts on applic
 
 ## ADRs
 
+Architecture Decision Record can be found in './ADR'
+
+## NEXT STEPS
+
+Next steps can be found in './TODO.md'
